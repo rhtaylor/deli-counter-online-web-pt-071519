@@ -13,7 +13,7 @@ def line(deli)
         end
         puts sen
     end
-    
+
 end
 
 
