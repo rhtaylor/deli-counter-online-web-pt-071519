@@ -1,5 +1,5 @@
 require 'pry'
-katz_deli = []
+katz_deli = ["Randy"]
 
 def line(deli=katz_deli)
     if deli.size < 1
@@ -17,7 +17,7 @@ def line(deli=katz_deli)
 
 end
 
-line("Randy")
+line
 
 def take_a_number(katz_deli, name)
   katz_deli << name
