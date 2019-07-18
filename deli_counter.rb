@@ -20,8 +20,9 @@ end
 
 def take_a_number(katz_deli, name)
   katz_deli << name
-  katz_deli.each_with_index do |n, i|
-    puts  "Welcome, #{n}. You are number #{i + 1} in line."
+  x = katz_deli.find_index(name)
+  katz_deli.each do |n|
+    puts  "Welcome, #{n}. You are number #{x} in line."
   end
 end
 
