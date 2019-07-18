@@ -24,6 +24,6 @@ end
 
 def now_serving(deli)
   spot = deli.shift
-  puts "currently serving #{spot}"
+  puts "Currently serving #{spot}."
 end
   
