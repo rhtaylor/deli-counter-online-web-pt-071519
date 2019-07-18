@@ -22,7 +22,7 @@ def take_a_number(katz_deli, name)
   katz_deli << name
   x = katz_deli.find_index(name)
   katz_deli.each do |n|
-    puts  "Welcome, #{n}. You are number #{x} in line."
+    puts  "Welcome, #{n}. You are number #{x +1} in line."
   end
 end
 
