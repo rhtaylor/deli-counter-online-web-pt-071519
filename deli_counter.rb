@@ -10,11 +10,10 @@ def line(deli)
       sen = "The line is currently: "
       nu.each do |x|
         sen + " #{x}"
-
-      end
-      puts sen
+        end
+      
     end
-
+    puts sen
 end
 
 
