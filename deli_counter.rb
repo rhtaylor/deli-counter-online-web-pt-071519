@@ -17,7 +17,7 @@ def line(deli=katz_deli)
 
 end
 
-
+line("Randy")
 
 def take_a_number(katz_deli, name)
   katz_deli << name
