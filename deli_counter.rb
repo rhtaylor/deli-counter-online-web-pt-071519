@@ -1,7 +1,7 @@
-require 'pry'
-katz_deli = ["Randy"]
 
-def line(deli=katz_deli)
+katz_deli = []
+
+def line(deli)
     if deli.size < 1
       puts "The line is currently empty."
     else
@@ -17,7 +17,7 @@ def line(deli=katz_deli)
 
 end
 
-line
+
 
 def take_a_number(katz_deli, name)
   katz_deli << name
