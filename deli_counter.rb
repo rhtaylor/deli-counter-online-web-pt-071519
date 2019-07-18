@@ -1,3 +1,4 @@
+require 'pry'
 katz_deli = []
 
 def line(deli=katz_deli)
@@ -9,6 +10,7 @@ def line(deli=katz_deli)
       sen = "The line is currently: "
       nu.each do |x|
         sen + " #{x}"
+        binding.pry
       end
       puts sen
     end
