@@ -11,7 +11,7 @@ def line(deli)
       nu.each do |x|
         sen + " #{x}"
         end
-      
+
     end
     puts sen
 end
