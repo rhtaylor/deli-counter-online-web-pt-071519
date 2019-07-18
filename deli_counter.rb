@@ -21,3 +21,9 @@ def take_a_number(katz_deli, name)
     puts  "Welcome, #{n}. You are number #{i + 1} in line."
   end
 end
+
+def now_serving(deli)
+  spot = deli.shift
+  puts "currently serving #{spot}"
+end
+  
