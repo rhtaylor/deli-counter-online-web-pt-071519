@@ -5,7 +5,7 @@ def line(deli=katz_deli)
       puts "The line is currently empty."
     else
       nu = []
-     deli.each_with_index { |x,i| nu << "#{i+1}. #{x} "}
+     deli.each_with_index { |x,i| nu << " #{i+1}. #{x}"}
       sen = "The line is currently: "
       nu.each {|x| sen << x }
       puts sen
